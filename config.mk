@@ -22,7 +22,10 @@ PRODUCT_PACKAGES += \
     SafetyHubPrebuilt \
     SettingsIntelligenceGooglePrebuilt \
     GooglePermissionControllerOverlay \
-    PixelDocumentsUIGoogleOverlay \
+    PixelDocumentsUIGoogleOverlay 
+
+# Overlay Packages
+PRODUCT_PACKAGES += \
     FontSimpleDay 
 
 ifeq ($(TARGET_GAPPS_ARCH),arm64)
